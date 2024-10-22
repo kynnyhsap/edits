@@ -1,11 +1,10 @@
-import { Composition, staticFile } from "remotion";
+import { Composition } from "remotion";
 import { VideoComposition } from "./remotion";
 
 const FPS = 60;
-const ID = "tiktok-edit";
+const ID = "banger";
 
 export function RemotionRoot() {
-  console.log(staticFile("music/theloser.mp3"));
   return (
     <Composition
       id={ID}
